@@ -1,0 +1,4 @@
+- fix bug in `ChatActivity` causing a `NullPointerException` when the app is launched (this is the bug causing most crashes according to Google Play)
+- make 'Download Models' screen scrollable to make sure it works correctly on small screen devices
+- add support for 16 KB page sizes
+- improve the `SmolLM` API and document its methods
