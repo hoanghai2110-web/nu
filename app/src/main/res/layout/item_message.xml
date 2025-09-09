@@ -1,0 +1,36 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="Người gửi" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/message_background"
+        android:padding="12dp"
+        android:text="Nội dung tin nhắn"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="10sp"
+        android:textColor="#666666"
+        android:text="Thời gian" />
+
+</LinearLayout>
